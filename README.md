@@ -18,7 +18,8 @@ Raspisecurity© is a program that creates a live security feed using your raspbe
 
 Currently the only way to install Raspisecurity© is by a script eventualy there will be a .deb file to run instead of the .sh file.
 -----
-Part 1
+Only one command
+
 Just copy this command and run it in terminal
 ```
 sudo git clone https://github.com/oxmc/raspisecurity.git && chmod +x ~/raspisecurity/*.sh && chmod +x ~/raspisecurity/scripts/*.sh && sudo apt-get install zenity && zenity --info --title="Raspisecurity© installer" --text="Part 1 completed!" --ellipsize

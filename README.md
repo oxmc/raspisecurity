@@ -3,7 +3,7 @@
 
 -----
 # Information
-Raspisecurity© is a program that creates a live security feed using your raspberrypi as a web server and allows you to create a web interface to see all your cameras(conected to the pi) on the website the pi creates.
+Raspisecurity© is a program that creates a live security feed using your raspberry pi as a web server and allows you to create a web interface to see all your cameras(conected to the pi) on the website the pi creates.
 
 -----
 # Supported boards

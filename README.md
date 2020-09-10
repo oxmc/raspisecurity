@@ -1,2 +1,3 @@
 # raspisecurity
-https://img.shields.io/badge/version-beta-brightgreen
+![version badge](https://img.shields.io/badge/version-beta-brightgreen)
+

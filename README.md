@@ -8,7 +8,10 @@ Raspisecurity© is a program that creates a live security feed using your raspbe
 -----
 # Supported boards
 ![supported boards image](https://img.shields.io/badge/supported%20boards-raspberry%20pi%203%20,%20raspberry%20pi%203%20b%2B-blue)
+-----
+# soon to be supported.
 
-soon to be supported.
-
+![testing badge image](https://img.shields.io/badge/testing-raspberry%20pi%204-informational)
+-----
+# installation
 ![](https://img.shields.io/badge/testing-raspberry%20pi%204-informational)

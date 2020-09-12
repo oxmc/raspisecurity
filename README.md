@@ -22,6 +22,6 @@ Only one command
 
 Just copy this command and run it in terminal
 ```
-sudo git clone https://github.com/oxmc/raspisecurity.git && sudo cp -r /home/pi/raspisecurity/Raspisecurity /home/pi/Raspisecurity && sudo rm -r /home/pi/raspisecurity && chmod +x /home/pi/Raspisecurity/install.sh && sudo apt-get install zenity && zenity --info --title="Raspisecurity© installer" --text="Part 1 completed!" --ellipsize && /home/pi/Raspisecurity/install.sh
+sudo git clone https://github.com/oxmc/raspisecurity.git && sudo cp -r /home/pi/raspisecurity/Raspisecurity /home/pi/Raspisecurity && sudo rm -r /home/pi/raspisecurity && sudo chmod +x /home/pi/Raspisecurity/install.sh && sudo apt-get install zenity && zenity --info --title="Raspisecurity© installer" --text="Part 1 completed!" --ellipsize && /home/pi/Raspisecurity/install.sh
 ```
 

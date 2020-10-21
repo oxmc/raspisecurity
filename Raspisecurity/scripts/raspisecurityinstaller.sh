@@ -11,7 +11,9 @@ yad --info --title="Raspisecurity© installer" --text="This program will install
 
 #Background code used to install move delete and create raspisecurity
 clear
-sudo cp $Dir/scripts/dlr.desktop /home/pi/Desktop/download.desktop
+
+sudo cp /home/pi/Raspisecurity/scripts/dlr.desktop /home/pi/Desktop/dlr.desktop
+
 echo "Starting Raspisecurity intilation" > $logdir
 echo "Getting required applications and packages" >> $logdir
 sudo apt install zip unzip apache2 motion yad autoconf automake build-essential pkgconf libtool git libzip-dev libjpeg-dev gettext libmicrohttpd-dev libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev default-libmysqlclient-dev libpq-dev libsqlite3-dev libwebp-dev 

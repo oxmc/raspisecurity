@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Download recordings
+Comment=Download all camera recordings to device
+Exec=sudo pcmanfm /rsec/scripts/down.sh
+Icon=/home/pi/Pi-Power-Tools/icons/logo-64.png
+Terminal=false
+Type=Application
+Categories=Utility;

@@ -1,5 +1,4 @@
 Dir="/home/pi/Raspisecurity"
-set -0 unset
 
 ln="4" && echo $(hotname-1) > $Dir/configs/ip.txt
 ln="5" && echo "Your pi's ip adress is located at /home/pi/Raspisecurity/configs/ip.txt"

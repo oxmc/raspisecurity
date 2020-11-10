@@ -14,8 +14,9 @@ Raspisecurity© is a program that creates a live security feed using your raspbe
 ![testing badge image](https://img.shields.io/badge/testing-raspberry%20pi%204-informational)
 -----
 # Installation
-![install badge image](https://img.shields.io/badge/install%20options-script-green)
+![install badge image](https://img.shields.io/badge/install%20options-script,%20preinstalled%20os%20images-green)
 
+# Installation-script
 Currently the only way to install Raspisecurity© is by a script eventualy there will be a .deb file to run instead of the .sh file.
 -----
 Only one command
@@ -30,3 +31,7 @@ sudo git clone https://github.com/oxmc/raspisecurity.git && sudo cp -r /home/pi/
 
 # Ubuntu
 
+
+-----
+# OS images
+web-ui - <a class="github-button" href="oxmc.github.io/files/rsec/webui.img" data-icon="logo.jpg" aria-label="link">Click me!</a>

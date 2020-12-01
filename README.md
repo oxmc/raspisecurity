@@ -20,7 +20,7 @@ Added the ability to download all the recordings in the /var/www/html/recordings
 ![testing badge image](https://img.shields.io/badge/testing-raspberry%20pi%204-informational)
 -----
 # Installation
-![install badge image](https://img.shields.io/badge/install%20options-script,%20preinstalled%20os%20images-green)
+![install badge image](https://img.shields.io/badge/install%20options-script,%20preinstalled%20os%20images,%20Terminal-green)
 
 # Installation-script
 Currently the only way to install Raspisecurity© is by a script eventualy there will be a .deb file to run instead of the .sh file.
@@ -32,12 +32,31 @@ Just copy this command and run it in terminal
 # Raspberry pi os 32-bit
 
 ```
-sudo git clone https://github.com/oxmc/raspisecurity.git && sudo cp -r /home/pi/raspisecurity/Raspisecurity /home/pi/Raspisecurity && sudo rm -r /home/pi/raspisecurity && sudo chmod +x /home/pi/Raspisecurity/install.sh && sudo apt-get install zenity && zenity --info --title="Raspisecurity© installer" --text="Part 1 completed!" --ellipsize && /home/pi/Raspisecurity/install.sh
+wget -O - https://raw.githubusercontent.com/oxmc/lptpsettings/master/install.sh | bash
+```
+
+# INFO
+You can also add raspisecurity to the apt list instead of using this command to download it all the time.
+
+
+Use this command to install script.
+```
+wget -O - https://raw.githubusercontent.com/oxmc/lptpsettings/master/getfiles.sh | bash
+```
+Use this command to add it manualy.
+```
+echo "deb http://oxmc.github.io/files/rpi/apps/apt jessie main" | sudo tee -a /etc/apt/sources.list && sudo apt update
+```
+Then use this command to install raspisecurity
+```
+sudo apt-get install rpisec
 ```
 
 # Ubuntu
+# !NOT SUPPORTED! #
 
 
 -----
 # OS images
+# NOT AVAILIBLE YET!
 web-ui - <a class="github-button" href="oxmc.github.io/files/rsec/webui.img" data-icon="logo.jpg" aria-label="link">Click me!</a>

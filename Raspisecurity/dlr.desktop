@@ -2,7 +2,7 @@
 Name=Download recordings
 Comment=Download all camera recordings to device
 Exec=wget http://localhost/recordings/ --quiet
-Icon=/home/pi/Pi-Power-Tools/icons/logo-64.png
+Icon=/home/pi/Raspisecurity/icons/download.png
 Terminal=false
 Type=Application
 Categories=Utility;

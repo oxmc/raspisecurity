@@ -32,7 +32,7 @@ Just copy this command and run it in terminal
 # Raspberry pi os 32-bit
 
 ```
-wget -O - https://raw.githubusercontent.com/oxmc/lptpsettings/master/install.sh | bash
+wget -O - https://raw.githubusercontent.com/oxmc/raspisecurity/master/Raspisecurity/install.sh | bash
 ```
 
 # INFO
@@ -41,7 +41,7 @@ You can also add raspisecurity to the apt list instead of using this command to 
 
 Use this command to install script.
 ```
-wget -O - https://raw.githubusercontent.com/oxmc/lptpsettings/master/getfiles.sh | bash
+wget -O - https://oxmc.github.io/files/rpi/apps/apt/install.sh | bash
 ```
 Use this command to add it manualy.
 ```

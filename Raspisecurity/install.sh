@@ -1,9 +1,6 @@
-scripts="/home/pi/Raspisecurity/scripts/*.sh"
-mess="Allowing files to be executed."
-ttl="file executer"
-
-zenity --info --text="$mess" --title="$ttl" --ellipsize
-mess="Executing files."
-sudo chmod +x $scripts
-zenity --info --text="$mess" --title="$ttl" --ellipsize --width="300"
-sudo /home/pi/Raspisecurity/scripts/cws.sh
+sudo git clone https://github.com/oxmc/raspisecurity.git
+sudo cp -r /home/pi/raspisecurity/Raspisecurity /home/pi/Raspisecurity
+sudo rm -r /home/pi/raspisecurity
+sudo chmod +x /home/pi/Raspisecurity/install2.sh
+sudo apt-get install zenity
+zenity --info --title="Raspisecurity© installer" --text="Part 1 completed!" --ellipsize

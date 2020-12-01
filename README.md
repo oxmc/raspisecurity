@@ -8,10 +8,10 @@ Raspisecurity© is a program that creates a live security feed using your raspbe
 # NEW
 Added the ability to download all the recordings in the /var/www/html/recordings directory.
 # OS    | Availible
-Windows   false
-Linux     true
-Mac       true
------
+![Supported OS Windows badge image](https://img.shields.io/badge/Windows-False-red)
+![Supported OS Linux badge image](https://img.shields.io/badge/Linux-True-brightgreen)
+![Supported OS Mac badge image](https://img.shields.io/badge/Mac-True-brightgreen)
+
 # Supported boards
 ![supported boards image](https://img.shields.io/badge/supported%20boards-raspberry%20pi%203%20,%20raspberry%20pi%203%20b%2B-blue)
 -----
